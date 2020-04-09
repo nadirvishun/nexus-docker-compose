@@ -2,7 +2,8 @@
 nexus私服的docker-compose.yml文件
 ### 说明
 - 仅仅是将[nexus官网安装](https://help.sonatype.com/repomanager3/installation/installation-methods)中的[docker仓库](https://hub.docker.com/r/sonatype/nexus3/)上的命令进行了整合，需提前创建相关`network`和相关`volumes`：
- ```
+
+ ```sh
  #创建network
  docker network create nexus
  #创建volumes

@@ -11,4 +11,4 @@ nexus私服的docker-compose.yml文件
  ```
 ### 使用
 - 安装[docker-compose](https://docs.docker.com/compose/install/)
-- 在下载的`docker-compose.yml`目录下运行`docker-compose up -d`启动，运行`docker-compose down`来关闭
+- 在下载的`docker-compose.yml`目录下运行`docker compose up -d`启动，运行`docker compose down`来关闭
